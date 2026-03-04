@@ -95,4 +95,5 @@ class handDetector():
 
         length = math.hypot(x2 - x1, y2 - y1)
 
+
         return length, img, [x1, y1, x2, y2, cx, cy]
